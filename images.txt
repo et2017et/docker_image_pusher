@@ -16,6 +16,7 @@ linuxserver/chromium:latest
 linuxserver/firefox:latest
 
 #常用的image
+xhofe/alist:latest
 portainer/portainer-ce
 containrrr/watchtower
 jeessy/ddns-go
@@ -39,3 +40,34 @@ azamserver/pihole-doh:latest
 
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+#添加ARM64架构
+#linuxserver.io的镜像
+--platform=linux/arm64 linuxserver/swag
+--platform=linux/arm64 linuxserver/qbittorrent
+--platform=linux/arm64 linuxserver/jellyfin
+--platform=linux/arm64 linuxserver/syncthing
+--platform=linux/arm64 linuxserver/duplicati
+--platform=linux/arm64 linuxserver/freshrss:latest
+--platform=linux/arm64 linuxserver/openssh-server:latest
+--platform=linux/arm64 linuxserver/heimdall:latest
+--platform=linux/arm64 linuxserver/wireguard:latest
+--platform=linux/arm64 linuxserver/chromium:latest
+--platform=linux/arm64 linuxserver/firefox:latest
+
+#常用的image
+--platform=linux/arm64 xhofe/alist:latest
+--platform=linux/arm64 portainer/portainer-ce
+--platform=linux/arm64 containrrr/watchtower
+--platform=linux/arm64 jeessy/ddns-go
+--platform=linux/arm64 teddysun/kms:latest
+--platform=linux/arm64 filebrowser/filebrowser:s6
+--platform=linux/arm64 filebrowser/filebrowser
+--platform=linux/arm64 photoprism/photoprism:latest
+--platform=linux/arm64 mariadb:11
+--platform=linux/arm64 mariadb
+--platform=linux/arm64 caddy:latest
+--platform=linux/arm64 whyour/qinglong:latest
+--platform=linux/arm64 ubuntu/squid:latest
+--platform=linux/arm64 mtphotos/mt-photos:latest
+
+
