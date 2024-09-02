@@ -14,6 +14,7 @@ linuxserver/heimdall:latest
 linuxserver/wireguard:latest
 linuxserver/chromium:latest
 linuxserver/firefox:latest
+alpine:latest
 
 #常用的image
 xhofe/alist:latest
