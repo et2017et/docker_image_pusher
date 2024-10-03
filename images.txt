@@ -1,6 +1,6 @@
 nginx
-registry
-ubuntu
+registry:latest
+ubuntu:latest
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
@@ -72,5 +72,7 @@ azamserver/pihole-doh:latest
 --platform=linux/arm64 whyour/qinglong:latest
 --platform=linux/arm64 ubuntu/squid:latest
 --platform=linux/arm64 mtphotos/mt-photos:latest
+--platform=linux/arm64 ubuntu:latest
+--platform=linux/arm64 alpine:latest
 
 
